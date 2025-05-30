@@ -27,7 +27,7 @@ jobs:
       with:
         registry: ghcr.io
         username: Ry4nH0
-        password: ${{ secrets.DEVOPS_TODO }}
+        password: ${{ secrets.devops_todo }}
 
     - name: Build and push backend image
       run: |
