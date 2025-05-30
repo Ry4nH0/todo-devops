@@ -7,8 +7,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME_BACKEND: Ry4nH0/todo-backend
-  IMAGE_NAME_FRONTEND: Ry4nH0/todo-frontend
+  IMAGE_NAME_BACKEND: todo-backend
+  IMAGE_NAME_FRONTEND: todo-frontend
 
 jobs:
   build-and-push:
