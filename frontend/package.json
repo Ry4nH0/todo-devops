@@ -1,0 +1,11 @@
+{
+  "name": "todo-frontend",
+  "version": "1.0.0",
+  "description": "Simple frontend for Todo List App",
+  "scripts": {
+    "start": "http-server ./ -c-1 -p 5500"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
