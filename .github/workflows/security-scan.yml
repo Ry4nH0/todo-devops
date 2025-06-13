@@ -41,7 +41,7 @@ jobs:
             - name: Scan backend image
               uses: aquasecurity/trivy-action@0.31.0
               with:
-                image-ref: ${{ env.IMAGE_NAME_BACKEND }}
+                image-ref: ghcr.io/${{ env.IMAGE_NAME_BACKEND }}
                 format: table
                 output: backend-report.txt
 
@@ -49,7 +49,7 @@ jobs:
             - name: Scan frontend image
               uses: aquasecurity/trivy-action@0.31.0
               with:
-                image-ref: ${{ env.IMAGE_NAME_FRONTEND }}
+                image-ref: ghcr.io/${{ env.IMAGE_NAME_FRONTEND }}
                 format: table
                 output: frontend-report.txt
 
