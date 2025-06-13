@@ -10,8 +10,8 @@ on:
     workflow_dispatch:
 
 env:
-    IMAGE_NAME_BACKEND: todo-backend
-    IMAGE_NAME_FRONTEND: todo-frontend
+    IMAGE_NAME_BACKEND: ry4nh0/todo-backend
+    IMAGE_NAME_FRONTEND: ry4nh0/todo-frontend
 
 jobs:
     scan-containers: # Job ID
