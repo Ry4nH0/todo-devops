@@ -39,7 +39,7 @@ jobs:
             
             # Step 4: Scan backend image with Trivy
             - name: Scan backend image
-              uses: aquasecurity/trivy-action@v0.13.0
+              uses: aquasecurity/trivy-action@0.31.0
               with:
                 image-ref: ${{ env.IMAGE_NAME_BACKEND }}
                 format: table
@@ -47,7 +47,7 @@ jobs:
 
             # Step 5: Scan frontend image with Trivy
             - name: Scan frontend image
-              uses: aquasecurity/trivy-action@v0.13.0
+              uses: aquasecurity/trivy-action@0.31.0
               with:
                 image-ref: ${{ env.IMAGE_NAME_FRONTEND }}
                 format: table
