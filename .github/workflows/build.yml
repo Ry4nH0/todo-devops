@@ -1,8 +1,13 @@
 name: Build and Push Docker Images
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
+  # workflow_dispatch:
+
+  # Dispatches after security scan is done
+  repository_dispatch:
+    types: [trigger-build-push]
   workflow_dispatch:
 
 env:
