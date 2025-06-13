@@ -1,0 +1,7 @@
+{
+  "name": "todo-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node render-start.js"
+  }
+}
