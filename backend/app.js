@@ -4,6 +4,7 @@ const app = express();
 const todoRoutes = require('./routes/todoRoutes');
 
 app.use(cors({ origin: process.env.FRONTEND_URL }));
+app.use(cors({ origin: 'https://todo-frontend-hazel-nine.vercel.app' }));
 app.use(express.json());
 app.use('/api/todos', todoRoutes);
 
