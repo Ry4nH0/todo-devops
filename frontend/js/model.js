@@ -1,5 +1,5 @@
-const API = 'http://backend:3000/api/todos';
-// const API = 'http://localhost:3000/api/todos';
+// const API = 'http://backend:3000/api/todos';
+const API = 'http://localhost:3000/api/todos';
 
 export async function fetchTodos() {
   console.log(`Fetching from: ${API}`);
