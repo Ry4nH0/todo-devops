@@ -1,5 +1,6 @@
 // const API = 'http://backend:3000/api/todos';
-const API = 'http://localhost:3000/api/todos';
+// const API = 'http://localhost:3000/api/todos';
+const API = `${import.meta.env.VITE_BACKEND_URL}/api/todos`;
 
 export async function fetchTodos() {
   console.log(`Fetching from: ${API}`);
