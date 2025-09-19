@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node (from backend/.nvmrc)
         uses: actions/setup-node@v4
         with:
-          node-version-file: 'backend/.nvmrc'
+          node-version: '20'
 
       - name: Install Vercel CLI
         run: npm install --global vercel
